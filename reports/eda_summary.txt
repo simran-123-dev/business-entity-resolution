@@ -1,0 +1,122 @@
+
+============================================================
+  SOURCE 1 (Reference)
+============================================================
+Rows: 25,000
+Columns: ['entity_id', 'business_name', 'business_address', 'country']
+
+Missing values:
+entity_id           0
+business_name       0
+business_address    0
+country             0
+
+Duplicate entity_ids: 0
+
+Country distribution:
+country
+US       15166
+India     9834
+
+Sample business names:
+  - Knr Chemtech Ltd
+  - Congregation Catholic Church
+  - Keystone Textile Alliance LLC
+  - Pipefitters Local Union 679
+  - Ananda Stock Corp
+
+Sample addresses:
+  - Xvii/76, Chaithanya, Chaithranagar, Kodunthirappullypost, Palakkad, Kerala
+  - TX, Katy, 22615 Potterstone Peak Drive
+  - 2045 Mackeys Road, Plymouth, NC
+  - 1450 Salter Path Road, Unit D19, Indian Beach, NC
+  - House No. 806-D, Kh No. 43/29, Ground Floor, Village Bakoli, Near Mcd Primary School, Delhi, North West, Delhi
+
+============================================================
+  SOURCE 2
+============================================================
+Rows: 25,000
+Columns: ['entity_id', 'business_name', 'business_address', 'country']
+
+Missing values:
+entity_id             0
+business_name         0
+business_address    801
+country               0
+
+Duplicate entity_ids: 0
+
+Country distribution:
+country
+US       15019
+India     9981
+
+Sample business names:
+  - Sore Book Sweet Greater
+  - #curtimazza
+  - Plus  &
+  - à¤¸à¤¨ à¤à¤à¤à¥à¤¨à¤¿à¤¯à¤°à¤¿à¤à¤ à¤«à¥à¤¡à¥à¤¸ à¤ªà¥à¤°à¤¾à¤à¤µà¥à¤ à¤²à¤¿à¤®à¤¿à¤à¥à¤¡
+  - Holdings Scholl Telecommunicatinn
+
+Sample addresses:
+  - W NO/10/903/715/55/6 SHRIRAM NAGAR, ICHALKARANJI, Maharashtra
+  - 4834-4838 LOOKING GLASS TRAIL, DNVER TOWNSHIP, NC
+  - NO.472/3 , 1ST FLOOR, 6TH CROSS, 10TH MAIN R M V EXTENSION, SADASHIVANAGARA, BANGALORE, Karnataka
+  - W258N6997 VICTORIA CIR, SUSSEX, WI
+  - APEX TOWWNSHIP, NC, MOSTYN LANE
+
+============================================================
+  SOURCE 3
+============================================================
+Rows: 25,000
+Columns: ['entity_id', 'business_name', 'business_address', 'country']
+
+Missing values:
+entity_id             0
+business_name         0
+business_address    813
+country               0
+
+Duplicate entity_ids: 0
+
+Country distribution:
+country
+US       15116
+India     9884
+
+Sample business names:
+  - Projects Anuraj Aid Private Limited
+  - The Federal Banc LLC
+  - Ailynsmithcreative.Com
+  - M/s Rsc Tldaers  LLP
+  - Arcrizazeta
+
+Sample addresses:
+  - 146 9th Avenue, Conover, North Carolina
+  - Vraj ##3 Bl No12 C Nr Kirti, Kalavad, Jamnagar, àªà«àªàª°àª¾àª¤
+  - B/177, Amitnagar Society Vip Road, Karelibaug, Vadodara, Gujarat
+  - Hyderabad, TG, Hyderabad, Level 2, Plot No :18, Oval Building, Ilabs Center Inorbit Mall Road
+  - #225 Green Lea Pl, City Of Thousand Oaks, California
+
+============================================================
+  GROUND TRUTH
+============================================================
+Total S1 entities in GT: 2,206,821
+Singletons (0 matches): 123,247 (5.6%)
+Avg matches per S1: 3.46
+Max matches: 11
+
+Match count distribution:
+n_matches
+0     123247
+1     119157
+2     375212
+3     530841
+4     484115
+5     321957
+6     164868
+7      63968
+8      18680
+9       4205
+10       534
+11        37
